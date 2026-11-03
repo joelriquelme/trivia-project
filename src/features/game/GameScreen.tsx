@@ -5,6 +5,8 @@ import type { AnswerIndex } from '../../domain/types'
 import { useGameStore } from '../../store/gameStore'
 import { Button } from '../../ui/Button'
 import { CategoryChoice, DifficultyChoice, LandedSummary } from '../turn/ChoicePanel'
+import { ResultsScreen } from '../results/ResultsScreen'
+import { Scoreboard } from '../scoreboard/Scoreboard'
 import { QuestionCard } from '../turn/QuestionCard'
 import { Wheel } from '../wheel/Wheel'
 
@@ -34,16 +36,7 @@ export function GameScreen({ onExit }: GameScreenProps) {
   const onNext = useCallback(() => dispatch({ type: 'next' }), [dispatch])
   if (!game) return null
 
-  if (game.finished) {
-    return (
-      <main className="grid min-h-full place-items-center p-6 text-center">
-        <div className="flex flex-col items-center gap-4">
-          <h1 className="text-4xl font-extrabold text-brass-400">Partida terminada</h1>
-          <Button onClick={onExit}>Volver al inicio</Button>
-        </div>
-      </main>
-    )
-  }
+  if (game.finished) return <ResultsScreen key={game.history.length} game={game} onHome={onExit} />
 
   const turn = game.turn
   const player = currentPlayer(game)
@@ -66,6 +59,8 @@ export function GameScreen({ onExit }: GameScreenProps) {
           Salir
         </Button>
       </header>
+
+      <Scoreboard game={game} />
 
       <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <Wheel
