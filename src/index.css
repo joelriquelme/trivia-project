@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+/* Game-show stage: deep petrol night, brass gold highlights, coral for alerts. */
+@theme {
+  --color-stage-950: #06141c;
+  --color-stage-900: #0b1f2a;
+  --color-stage-800: #12303f;
+  --color-stage-700: #1b4357;
+  --color-stage-600: #285a72;
+  --color-stage-300: #8fb3c4;
+  --color-stage-100: #dcebf2;
+  --color-brass-500: #e2a93b;
+  --color-brass-400: #f1c25e;
+  --color-brass-300: #f8d98f;
+  --color-coral-500: #ef5b4c;
+  --color-mint-500: #33c48d;
+
+  --font-display: 'Bricolage Grotesque', 'Arial Black', system-ui, sans-serif;
+  --font-body: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-stage-950 text-stage-100 font-body antialiased;
+    background-image: radial-gradient(
+      ellipse 80% 60% at 50% -10%,
+      color-mix(in oklab, var(--color-stage-700) 70%, transparent),
+      transparent 70%
+    );
+    background-attachment: fixed;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-brass-400);
+    outline-offset: 2px;
+  }
+}
