@@ -30,7 +30,7 @@ export interface WheelProps {
   turnKey: string
 }
 
-type Mode = 'idle' | 'spinning' | 'won'
+type Mode = 'idle' | 'spinning' | 'won' | 'landed'
 
 const GOLD = '#f1c25e'
 
@@ -38,11 +38,13 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
   const uid = useId().replace(/:/g, '')
   const reduced = useReducedMotion() ?? false
   const svgRef = useRef<SVGSVGElement>(null)
-  const rotation = useMotionValue(0)
+  // After a reload mid-turn, show the wheel already resting on the landed segment.
+  const restingOnTarget = spinId === null && targetIndex !== null && segments.length > 0
+  const rotation = useMotionValue(restingOnTarget ? landingRotation(0, targetIndex, segments.length, 0, 0) : 0)
   const pointerAngle = useMotionValue(0)
   const velocity = useVelocity(rotation)
   const blur = useTransform(velocity, (v) => (reduced ? 'none' : `blur(${Math.min(Math.abs(v) / 900, 2.6).toFixed(2)}px)`))
-  const [mode, setMode] = useState<Mode>('idle')
+  const [mode, setMode] = useState<Mode>(restingOnTarget ? 'landed' : 'idle')
   const strength = useRef(5)
   const count = segments.length
   const step = count ? 360 / count : 360
@@ -102,7 +104,9 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
       setMode('won')
       celebrate(svgRef.current, segmentColor(segments[targetIndex], categoryById))
       endTimer = setTimeout(() => {
-        if (!cancelled) onSpinEndRef.current()
+        if (cancelled) return
+        setMode('landed')
+        onSpinEndRef.current()
       }, reduced ? 400 : 1100)
     }
     void run()
@@ -117,8 +121,8 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
 
   // A fresh wheel for a new turn returns the lights to idle.
   useEffect(() => {
-    if (spinId === null) setMode('idle')
-  }, [turnKey, spinId])
+    if (targetIndex === null) setMode('idle')
+  }, [turnKey, targetIndex])
 
   // Flick to spin: drag the wheel and release with some speed.
   const drag = useRef<{ startAngle: number; startRotation: number; samples: { t: number; r: number }[] } | null>(null)
@@ -265,7 +269,7 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
             </motion.g>
 
             {/* Winning segment highlight */}
-            {mode === 'won' && targetIndex !== null && (
+            {(mode === 'won' || mode === 'landed') && targetIndex !== null && (
               <motion.path
                 d={slicePath(targetIndex, count, WHEEL.segmentRadius)}
                 fill="#fff"
