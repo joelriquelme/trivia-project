@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { useCallback } from 'react'
 import { currentPlayer, type GameState } from '../../domain/game'
 import type { AnswerIndex } from '../../domain/types'
+import { sfx } from '../../audio/sfx'
 import { useGameStore } from '../../store/gameStore'
 import { Button } from '../../ui/Button'
 import { CategoryChoice, DifficultyChoice, LandedSummary } from '../turn/ChoicePanel'
@@ -69,7 +70,12 @@ export function GameScreen({ onExit }: GameScreenProps) {
           spinId={turn.phase === 'spinning' ? turn.spinId : null}
           targetIndex={turn.phase === 'spin' ? null : turn.segmentIndex}
           canSpin={turn.phase === 'spin'}
-          onSpinRequest={() => dispatch({ type: 'spin' })}
+          onSpinRequest={() => {
+            sfx.whoosh()
+            dispatch({ type: 'spin' })
+          }}
+          onTick={sfx.tick}
+          onLand={sfx.land}
           onSpinEnd={() => dispatch({ type: 'spinEnd' })}
           turnKey={turnKey}
         />
@@ -99,14 +105,20 @@ export function GameScreen({ onExit }: GameScreenProps) {
                 <CategoryChoice
                   categories={categories}
                   options={turn.options}
-                  onChoose={(categoryId) => dispatch({ type: 'chooseCategory', categoryId })}
+                  onChoose={(categoryId) => {
+                    sfx.select()
+                    dispatch({ type: 'chooseCategory', categoryId })
+                  }}
                 />
               )}
               {turn.phase === 'chooseDifficulty' && (
                 <DifficultyChoice
                   category={categories.find((c) => c.id === turn.categoryId)}
                   options={turn.options}
-                  onChoose={(difficulty) => dispatch({ type: 'chooseDifficulty', difficulty })}
+                  onChoose={(difficulty) => {
+                    sfx.select()
+                    dispatch({ type: 'chooseDifficulty', difficulty })
+                  }}
                 />
               )}
             </motion.div>

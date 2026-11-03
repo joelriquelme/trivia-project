@@ -5,6 +5,7 @@ import type { GameState, Player } from '../../domain/game'
 import { ranking } from '../../domain/scoring'
 import { useBankStore } from '../../store/bankStore'
 import { useGameStore } from '../../store/gameStore'
+import { sfx } from '../../audio/sfx'
 import { Button } from '../../ui/Button'
 import { CrownIcon } from '../../ui/CrownIcon'
 
@@ -26,6 +27,7 @@ export function ResultsScreen({ game, onHome }: ResultsScreenProps) {
   const podiumOrder = [...podium.filter((r) => r.rank === 2), ...podium.filter((r) => r.rank === 1), ...podium.filter((r) => r.rank === 3)]
 
   useEffect(() => {
+    sfx.fanfare()
     const colors = winners.map((w) => w.color).concat('#f1c25e', '#ffffff')
     const end = Date.now() + 2200
     let frame = 0

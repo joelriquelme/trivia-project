@@ -3,6 +3,7 @@ import { GameScreen } from './features/game/GameScreen'
 import { HomeScreen } from './features/home/HomeScreen'
 import { SetupScreen } from './features/setup/SetupScreen'
 import { useGameStore } from './store/gameStore'
+import { MuteButton } from './ui/MuteButton'
 
 type Screen = 'home' | 'setup' | 'game' | 'editor'
 
@@ -10,14 +11,23 @@ function App() {
   const hasGame = useGameStore((s) => s.game !== null)
   const [screen, setScreen] = useState<Screen>('home')
 
-  if (screen === 'setup') return <SetupScreen onBack={() => setScreen('home')} onStarted={() => setScreen('game')} />
-  if (screen === 'game' && hasGame) return <GameScreen onExit={() => setScreen('home')} />
+  let content
+  if (screen === 'setup') content = <SetupScreen onBack={() => setScreen('home')} onStarted={() => setScreen('game')} />
+  else if (screen === 'game' && hasGame) content = <GameScreen onExit={() => setScreen('home')} />
+  else
+    content = (
+      <HomeScreen
+        onNewGame={() => setScreen('setup')}
+        onContinue={() => setScreen('game')}
+        onEditor={() => setScreen('editor')}
+      />
+    )
+
   return (
-    <HomeScreen
-      onNewGame={() => setScreen('setup')}
-      onContinue={() => setScreen('game')}
-      onEditor={() => setScreen('editor')}
-    />
+    <>
+      {content}
+      <MuteButton />
+    </>
   )
 }
 

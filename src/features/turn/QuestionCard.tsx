@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { useEffect } from 'react'
 import type { AnswerIndex, Category, Difficulty, Question } from '../../domain/types'
+import { sfx } from '../../audio/sfx'
 import { Button } from '../../ui/Button'
 import { readableOn } from '../wheel/labels'
 import { useNow } from './useNow'
@@ -31,11 +32,30 @@ export function QuestionCard(props: QuestionCardProps) {
   const open = reveal === null && deadline !== null
   const now = useNow(open)
   const remainingMs = deadline === null ? 0 : Math.max(0, deadline - now)
+  const accent = category?.color ?? '#285a72'
+  const fraction = timerSeconds > 0 ? remainingMs / (timerSeconds * 1000) : 0
+  const secondsLeft = Math.ceil(remainingMs / 1000)
+  const urgent = open && secondsLeft <= 5 && secondsLeft > 0
+
   // Time is up: answer as a timeout. The reducer ignores repeats once the phase moves on.
   const timeUp = open && remainingMs <= 0
   useEffect(() => {
     if (timeUp) onAnswer(null)
   }, [timeUp, onAnswer])
+
+  // Countdown beeps for the last five seconds.
+  useEffect(() => {
+    if (urgent) sfx.countdown()
+  }, [urgent, secondsLeft])
+
+  // Result sound once the answer is revealed.
+  const revealed = reveal !== null
+  const wasCorrect = reveal?.correct ?? false
+  useEffect(() => {
+    if (!revealed) return
+    if (wasCorrect) sfx.correct()
+    else sfx.wrong()
+  }, [revealed, wasCorrect])
 
   // Keyboard: 1-4 or A-D to answer, Enter to continue.
   useEffect(() => {
@@ -51,11 +71,6 @@ export function QuestionCard(props: QuestionCardProps) {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [open, reveal, onAnswer, onNext])
-
-  const accent = category?.color ?? '#285a72'
-  const fraction = timerSeconds > 0 ? remainingMs / (timerSeconds * 1000) : 0
-  const secondsLeft = Math.ceil(remainingMs / 1000)
-  const urgent = open && secondsLeft <= 5
 
   return (
     <motion.section

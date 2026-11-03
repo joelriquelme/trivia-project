@@ -26,6 +26,8 @@ export interface WheelProps {
   onSpinRequest: () => void
   onSpinEnd: () => void
   onTick?: (speed: number) => void
+  /** Fires the moment the wheel comes to rest. */
+  onLand?: () => void
   /** Identifies the current turn so a fresh wheel animates in. */
   turnKey: string
 }
@@ -34,7 +36,7 @@ type Mode = 'idle' | 'spinning' | 'won' | 'landed'
 
 const GOLD = '#f1c25e'
 
-export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSpinRequest, onSpinEnd, onTick, turnKey }: WheelProps) {
+export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSpinRequest, onSpinEnd, onTick, onLand, turnKey }: WheelProps) {
   const uid = useId().replace(/:/g, '')
   const reduced = useReducedMotion() ?? false
   const svgRef = useRef<SVGSVGElement>(null)
@@ -74,6 +76,8 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
   // The spin itself: wind back, launch, decelerate past the target and settle on it.
   const onSpinEndRef = useRef(onSpinEnd)
   onSpinEndRef.current = onSpinEnd
+  const onLandRef = useRef(onLand)
+  onLandRef.current = onLand
   useEffect(() => {
     if (spinId === null || targetIndex === null || count === 0) return
     let cancelled = false
@@ -102,6 +106,7 @@ export function Wheel({ segments, categories, spinId, targetIndex, canSpin, onSp
       }
       if (cancelled) return
       setMode('won')
+      onLandRef.current?.()
       celebrate(svgRef.current, segmentColor(segments[targetIndex], categoryById))
       endTimer = setTimeout(() => {
         if (cancelled) return
