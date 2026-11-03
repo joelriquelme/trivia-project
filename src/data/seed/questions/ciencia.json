@@ -1,0 +1,242 @@
+[
+  {
+    "id": "cie-1-a",
+    "difficulty": 1,
+    "prompt": "¿Cuál es la fórmula química del agua?",
+    "options": [
+      "H₂O",
+      "CO₂",
+      "O₂",
+      "NaCl"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cie-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué planeta es conocido como el planeta rojo?",
+    "options": [
+      "Júpiter",
+      "Marte",
+      "Venus",
+      "Saturno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "cie-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué órgano bombea la sangre en el cuerpo humano?",
+    "options": [
+      "Pulmón",
+      "Hígado",
+      "Corazón",
+      "Riñón"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "cie-1-d",
+    "difficulty": 1,
+    "prompt": "¿Cuál es la estrella más cercana a la Tierra?",
+    "options": [
+      "Sirio",
+      "Alfa Centauri",
+      "Polaris",
+      "El Sol"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "cie-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué gas absorben las plantas para realizar la fotosíntesis?",
+    "options": [
+      "Oxígeno",
+      "Dióxido de carbono",
+      "Nitrógeno",
+      "Hidrógeno"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "cie-2-b",
+    "difficulty": 2,
+    "prompt": "¿Cuántos huesos tiene el esqueleto humano adulto?",
+    "options": [
+      "186",
+      "212",
+      "206",
+      "226"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "cie-2-c",
+    "difficulty": 2,
+    "prompt": "¿Cuál es el planeta más grande del sistema solar?",
+    "options": [
+      "Saturno",
+      "Neptuno",
+      "Urano",
+      "Júpiter"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "cie-2-d",
+    "difficulty": 2,
+    "prompt": "¿A qué temperatura hierve el agua a nivel del mar?",
+    "options": [
+      "100 °C",
+      "90 °C",
+      "120 °C",
+      "80 °C"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cie-3-a",
+    "difficulty": 3,
+    "prompt": "¿Cuál es el símbolo químico del oro?",
+    "options": [
+      "Ag",
+      "Go",
+      "Au",
+      "Or"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "cie-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué científico descubrió la penicilina en 1928?",
+    "options": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Marie Curie",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "cie-3-c",
+    "difficulty": 3,
+    "prompt": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Pascal",
+      "Vatio"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cie-3-d",
+    "difficulty": 3,
+    "prompt": "¿Quién es considerado el creador de la World Wide Web?",
+    "options": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Vint Cerf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "cie-5-a",
+    "difficulty": 5,
+    "prompt": "¿Cuál es el elemento químico más abundante del universo?",
+    "options": [
+      "Helio",
+      "Oxígeno",
+      "Carbono",
+      "Hidrógeno"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "cie-5-b",
+    "difficulty": 5,
+    "prompt": "¿Quién propuso en 1913 un modelo atómico con órbitas cuantizadas?",
+    "options": [
+      "Niels Bohr",
+      "Ernest Rutherford",
+      "J. J. Thomson",
+      "Max Planck"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cie-5-c",
+    "difficulty": 5,
+    "prompt": "¿Cuántos cromosomas tiene una célula somática humana normal?",
+    "options": [
+      "23",
+      "46",
+      "44",
+      "48"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "cie-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué orgánulo celular produce la mayor parte del ATP?",
+    "options": [
+      "Ribosoma",
+      "Aparato de Golgi",
+      "Mitocondria",
+      "Lisosoma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "cie-8-a",
+    "difficulty": 8,
+    "prompt": "¿Qué físico formuló en 1925 el principio de exclusión?",
+    "options": [
+      "Wolfgang Pauli",
+      "Werner Heisenberg",
+      "Erwin Schrödinger",
+      "Paul Dirac"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "cie-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué metal tiene el punto de fusión más alto?",
+    "options": [
+      "Titanio",
+      "Wolframio",
+      "Platino",
+      "Osmio"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "cie-8-c",
+    "difficulty": 8,
+    "prompt": "¿Cuál es el valor aproximado del número de Avogadro?",
+    "options": [
+      "6,674 × 10⁻¹¹",
+      "1,602 × 10⁻¹⁹",
+      "6,022 × 10²³",
+      "2,998 × 10⁸"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "cie-8-d",
+    "difficulty": 8,
+    "prompt": "¿Quién descubrió el neutrón en 1932?",
+    "options": [
+      "Ernest Rutherford",
+      "Enrico Fermi",
+      "Niels Bohr",
+      "James Chadwick"
+    ],
+    "correctIndex": 3
+  }
+]

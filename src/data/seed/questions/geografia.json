@@ -1,0 +1,242 @@
+[
+  {
+    "id": "geo-1-a",
+    "difficulty": 1,
+    "prompt": "¿Cuál es el océano más grande del mundo?",
+    "options": [
+      "Pacífico",
+      "Atlántico",
+      "Índico",
+      "Ártico"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geo-1-b",
+    "difficulty": 1,
+    "prompt": "¿Cuál es la capital de Francia?",
+    "options": [
+      "Lyon",
+      "París",
+      "Marsella",
+      "Niza"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "geo-1-c",
+    "difficulty": 1,
+    "prompt": "¿En qué continente está Egipto?",
+    "options": [
+      "Asia",
+      "Europa",
+      "África",
+      "Oceanía"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "geo-1-d",
+    "difficulty": 1,
+    "prompt": "¿Cuál es la capital de Chile?",
+    "options": [
+      "Valparaíso",
+      "Concepción",
+      "Viña del Mar",
+      "Santiago"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "geo-2-a",
+    "difficulty": 2,
+    "prompt": "¿Cuál es la capital de Australia?",
+    "options": [
+      "Sídney",
+      "Canberra",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "geo-2-b",
+    "difficulty": 2,
+    "prompt": "¿Cuál es el río más caudaloso del mundo?",
+    "options": [
+      "Nilo",
+      "Misisipi",
+      "Amazonas",
+      "Yangtsé"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "geo-2-c",
+    "difficulty": 2,
+    "prompt": "¿Cuál es la montaña más alta del mundo sobre el nivel del mar?",
+    "options": [
+      "K2",
+      "Kilimanjaro",
+      "Aconcagua",
+      "Monte Everest"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "geo-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué país europeo tiene forma de bota?",
+    "options": [
+      "Italia",
+      "Grecia",
+      "España",
+      "Portugal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geo-3-a",
+    "difficulty": 3,
+    "prompt": "¿Cuál es la montaña más alta de América?",
+    "options": [
+      "Huascarán",
+      "Chimborazo",
+      "Aconcagua",
+      "Ojos del Salado"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "geo-3-b",
+    "difficulty": 3,
+    "prompt": "¿Cuál es la capital de Canadá?",
+    "options": [
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Ottawa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "geo-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué estrecho separa Europa de África?",
+    "options": [
+      "Gibraltar",
+      "Bósforo",
+      "Magallanes",
+      "Ormuz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geo-3-d",
+    "difficulty": 3,
+    "prompt": "¿Cuál es considerado el desierto no polar más árido del mundo?",
+    "options": [
+      "Sahara",
+      "Atacama",
+      "Gobi",
+      "Kalahari"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "geo-5-a",
+    "difficulty": 5,
+    "prompt": "¿Cuál es la capital de Mongolia?",
+    "options": [
+      "Astaná",
+      "Biskek",
+      "Taskent",
+      "Ulán Bator"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "geo-5-b",
+    "difficulty": 5,
+    "prompt": "¿Qué dos países de Sudamérica no tienen costa marítima?",
+    "options": [
+      "Bolivia y Paraguay",
+      "Bolivia y Uruguay",
+      "Paraguay y Ecuador",
+      "Bolivia y Ecuador"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geo-5-c",
+    "difficulty": 5,
+    "prompt": "¿En qué país se encuentra el salar de Uyuni?",
+    "options": [
+      "Chile",
+      "Bolivia",
+      "Perú",
+      "Argentina"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "geo-5-d",
+    "difficulty": 5,
+    "prompt": "¿Cuál es la capital de Nueva Zelanda?",
+    "options": [
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Hamilton"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "geo-8-a",
+    "difficulty": 8,
+    "prompt": "¿En qué fosa oceánica se encuentra el abismo Challenger?",
+    "options": [
+      "Fosa de las Marianas",
+      "Fosa de Puerto Rico",
+      "Fosa de Atacama",
+      "Fosa de Tonga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "geo-8-b",
+    "difficulty": 8,
+    "prompt": "¿Cuál es la capital de Burkina Faso?",
+    "options": [
+      "Bamako",
+      "Uagadugú",
+      "Niamey",
+      "Lomé"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "geo-8-c",
+    "difficulty": 8,
+    "prompt": "¿De qué país es capital la ciudad de Asjabad?",
+    "options": [
+      "Uzbekistán",
+      "Kirguistán",
+      "Turkmenistán",
+      "Tayikistán"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "geo-8-d",
+    "difficulty": 8,
+    "prompt": "¿Cuál es el punto más alto del territorio chileno?",
+    "options": [
+      "Llullaillaco",
+      "Tupungato",
+      "Aconcagua",
+      "Ojos del Salado"
+    ],
+    "correctIndex": 3
+  }
+]

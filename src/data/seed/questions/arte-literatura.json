@@ -1,0 +1,242 @@
+[
+  {
+    "id": "art-1-a",
+    "difficulty": 1,
+    "prompt": "¿Quién pintó la Mona Lisa?",
+    "options": [
+      "Leonardo da Vinci",
+      "Miguel Ángel",
+      "Rafael",
+      "Sandro Botticelli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "art-1-b",
+    "difficulty": 1,
+    "prompt": "¿Quién escribió «Don Quijote de la Mancha»?",
+    "options": [
+      "Lope de Vega",
+      "Miguel de Cervantes",
+      "Francisco de Quevedo",
+      "Calderón de la Barca"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "art-1-c",
+    "difficulty": 1,
+    "prompt": "¿Quién escribió «Cien años de soledad»?",
+    "options": [
+      "Mario Vargas Llosa",
+      "Julio Cortázar",
+      "Gabriel García Márquez",
+      "Carlos Fuentes"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "art-1-d",
+    "difficulty": 1,
+    "prompt": "¿Quién escribió «Romeo y Julieta»?",
+    "options": [
+      "Christopher Marlowe",
+      "Charles Dickens",
+      "Oscar Wilde",
+      "William Shakespeare"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "art-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué poeta chilena ganó el Premio Nobel de Literatura en 1945?",
+    "options": [
+      "Violeta Parra",
+      "Gabriela Mistral",
+      "María Luisa Bombal",
+      "Marcela Paz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "art-2-b",
+    "difficulty": 2,
+    "prompt": "¿Quién pintó «La noche estrellada»?",
+    "options": [
+      "Claude Monet",
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Paul Cézanne"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "art-2-c",
+    "difficulty": 2,
+    "prompt": "¿En qué ciudad se encuentra el Museo del Prado?",
+    "options": [
+      "Barcelona",
+      "Sevilla",
+      "Valencia",
+      "Madrid"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "art-2-d",
+    "difficulty": 2,
+    "prompt": "¿Quién esculpió el David de mármol que se exhibe en la Galería de la Academia de Florencia?",
+    "options": [
+      "Miguel Ángel",
+      "Donatello",
+      "Gian Lorenzo Bernini",
+      "Auguste Rodin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "art-3-a",
+    "difficulty": 3,
+    "prompt": "¿Qué pintor español creó el «Guernica»?",
+    "options": [
+      "Salvador Dalí",
+      "Joan Miró",
+      "Pablo Picasso",
+      "Francisco de Goya"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "art-3-b",
+    "difficulty": 3,
+    "prompt": "¿Quién escribió la novela «Rayuela»?",
+    "options": [
+      "Jorge Luis Borges",
+      "Ernesto Sabato",
+      "Adolfo Bioy Casares",
+      "Julio Cortázar"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "art-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué arquitecto diseñó la Sagrada Familia de Barcelona?",
+    "options": [
+      "Antoni Gaudí",
+      "Lluís Domènech i Montaner",
+      "Josep Puig i Cadafalch",
+      "Ricardo Bofill"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "art-3-d",
+    "difficulty": 3,
+    "prompt": "¿En qué año recibió Pablo Neruda el Premio Nobel de Literatura?",
+    "options": [
+      "1945",
+      "1971",
+      "1967",
+      "1982"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "art-5-a",
+    "difficulty": 5,
+    "prompt": "¿Quién escribió la novela «La ciudad y los perros»?",
+    "options": [
+      "Alfredo Bryce Echenique",
+      "Julio Ramón Ribeyro",
+      "José María Arguedas",
+      "Mario Vargas Llosa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "art-5-b",
+    "difficulty": 5,
+    "prompt": "¿Quién pintó «El jardín de las delicias»?",
+    "options": [
+      "El Bosco",
+      "Pieter Brueghel el Viejo",
+      "Jan van Eyck",
+      "Alberto Durero"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "art-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué movimiento artístico fundó André Breton con su manifiesto de 1924?",
+    "options": [
+      "Dadaísmo",
+      "Surrealismo",
+      "Cubismo",
+      "Futurismo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "art-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué poeta chileno escribió «Altazor»?",
+    "options": [
+      "Pablo de Rokha",
+      "Nicanor Parra",
+      "Vicente Huidobro",
+      "Gonzalo Rojas"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "art-8-a",
+    "difficulty": 8,
+    "prompt": "¿En qué año se publicó la primera parte de «Don Quijote de la Mancha»?",
+    "options": [
+      "1605",
+      "1615",
+      "1598",
+      "1610"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "art-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué escritor chileno ganó el Premio Cervantes en 2011?",
+    "options": [
+      "Jorge Edwards",
+      "Nicanor Parra",
+      "Gonzalo Rojas",
+      "Raúl Zurita"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "art-8-c",
+    "difficulty": 8,
+    "prompt": "¿En qué museo se exhibe «La joven de la perla» de Johannes Vermeer?",
+    "options": [
+      "Rijksmuseum",
+      "Museo Van Gogh",
+      "Mauritshuis",
+      "Museo Boijmans Van Beuningen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "art-8-d",
+    "difficulty": 8,
+    "prompt": "¿En qué pueblo ficticio transcurre la novela «Pedro Páramo» de Juan Rulfo?",
+    "options": [
+      "Macondo",
+      "Santa María",
+      "Yoknapatawpha",
+      "Comala"
+    ],
+    "correctIndex": 3
+  }
+]

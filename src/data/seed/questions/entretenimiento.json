@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ent-1-a",
+    "difficulty": 1,
+    "prompt": "¿Qué banda británica formaban John, Paul, George y Ringo?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ent-1-b",
+    "difficulty": 1,
+    "prompt": "¿Cómo se llama el fontanero de gorra roja que es la mascota de Nintendo?",
+    "options": [
+      "Luigi",
+      "Mario",
+      "Wario",
+      "Link"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ent-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué película de James Cameron de 1997 narra el hundimiento de un famoso transatlántico?",
+    "options": [
+      "Avatar",
+      "Aliens",
+      "Titanic",
+      "Terminator 2"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ent-1-d",
+    "difficulty": 1,
+    "prompt": "¿Cuál es la identidad secreta de Batman?",
+    "options": [
+      "Clark Kent",
+      "Peter Parker",
+      "Tony Stark",
+      "Bruce Wayne"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ent-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué artista es conocido como el «Rey del Pop»?",
+    "options": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Prince",
+      "Freddie Mercury"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ent-2-b",
+    "difficulty": 2,
+    "prompt": "¿Quién dirigió la película «Jurassic Park» (1993)?",
+    "options": [
+      "George Lucas",
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ent-2-c",
+    "difficulty": 2,
+    "prompt": "¿En qué ciudad vive la familia Simpson?",
+    "options": [
+      "Shelbyville",
+      "Quahog",
+      "South Park",
+      "Springfield"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ent-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué banda chilena grabó «El baile de los que sobran»?",
+    "options": [
+      "Los Prisioneros",
+      "Los Tres",
+      "Lucybell",
+      "La Ley"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ent-3-a",
+    "difficulty": 3,
+    "prompt": "¿Qué actor interpretó a Vito Corleone en «El Padrino» (1972)?",
+    "options": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Marlon Brando",
+      "James Caan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ent-3-b",
+    "difficulty": 3,
+    "prompt": "¿En qué año se estrenó la primera película de «Star Wars»?",
+    "options": [
+      "1975",
+      "1980",
+      "1983",
+      "1977"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ent-3-c",
+    "difficulty": 3,
+    "prompt": "¿En qué saga de videojuegos el protagonista se llama Link?",
+    "options": [
+      "The Legend of Zelda",
+      "Metroid",
+      "Final Fantasy",
+      "Kingdom Hearts"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ent-3-d",
+    "difficulty": 3,
+    "prompt": "¿Qué banda lanzó el álbum «The Dark Side of the Moon» en 1973?",
+    "options": [
+      "Led Zeppelin",
+      "Pink Floyd",
+      "Genesis",
+      "Yes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ent-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué película ganó el primer Óscar a mejor largometraje animado, en 2002?",
+    "options": [
+      "Monsters, Inc.",
+      "Jimmy Neutron",
+      "El viaje de Chihiro",
+      "Shrek"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ent-5-b",
+    "difficulty": 5,
+    "prompt": "¿Quién compuso la música de la película «Star Wars» (1977)?",
+    "options": [
+      "John Williams",
+      "Hans Zimmer",
+      "Ennio Morricone",
+      "Howard Shore"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ent-5-c",
+    "difficulty": 5,
+    "prompt": "¿Cómo se llama el planeta natal de Superman?",
+    "options": [
+      "Apokolips",
+      "Krypton",
+      "Thanagar",
+      "Oa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ent-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué actor interpretó a Walter White en la serie «Breaking Bad»?",
+    "options": [
+      "Aaron Paul",
+      "Bob Odenkirk",
+      "Bryan Cranston",
+      "Giancarlo Esposito"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ent-8-a",
+    "difficulty": 8,
+    "prompt": "¿En qué año se lanzó en Japón la Famicom, la consola que luego sería la NES?",
+    "options": [
+      "1983",
+      "1985",
+      "1981",
+      "1987"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ent-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué película ganó el Óscar a mejor película en la primera ceremonia de los premios?",
+    "options": [
+      "La melodía de Broadway",
+      "Alas",
+      "Sin novedad en el frente",
+      "Cimarrón"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ent-8-c",
+    "difficulty": 8,
+    "prompt": "¿Cuál fue el primer videoclip emitido por MTV en 1981?",
+    "options": [
+      "Take On Me",
+      "Thriller",
+      "Video Killed the Radio Star",
+      "Money for Nothing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ent-8-d",
+    "difficulty": 8,
+    "prompt": "¿En qué año debutó Superman en el número 1 de «Action Comics»?",
+    "options": [
+      "1936",
+      "1940",
+      "1941",
+      "1938"
+    ],
+    "correctIndex": 3
+  }
+]

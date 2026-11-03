@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mun-1-a",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó el Mundial de Qatar 2022?",
+    "options": [
+      "Francia",
+      "Brasil",
+      "Croacia",
+      "Argentina"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "mun-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué país organizó el Mundial de 2014?",
+    "options": [
+      "Argentina",
+      "Brasil",
+      "Sudáfrica",
+      "Alemania"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "mun-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó el primer Mundial, en 1930?",
+    "options": [
+      "Uruguay",
+      "Argentina",
+      "Brasil",
+      "Italia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "mun-1-d",
+    "difficulty": 1,
+    "prompt": "¿Quién marcó el gol de España en la final del Mundial de 2010?",
+    "options": [
+      "David Villa",
+      "Xavi Hernández",
+      "Andrés Iniesta",
+      "Fernando Torres"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "mun-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué país organizó el Mundial de 1962?",
+    "options": [
+      "Chile",
+      "Suecia",
+      "Inglaterra",
+      "México"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "mun-2-b",
+    "difficulty": 2,
+    "prompt": "¿Contra qué selección perdió Brasil 7-1 en la semifinal del Mundial de 2014?",
+    "options": [
+      "Argentina",
+      "Países Bajos",
+      "Alemania",
+      "Francia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "mun-2-c",
+    "difficulty": 2,
+    "prompt": "¿Qué selección ganó el Mundial de 1998?",
+    "options": [
+      "Brasil",
+      "Italia",
+      "Alemania",
+      "Francia"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "mun-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué jugador fue expulsado en la final de 2006 por un cabezazo a Materazzi?",
+    "options": [
+      "Thierry Henry",
+      "Zinedine Zidane",
+      "Patrick Vieira",
+      "Franck Ribéry"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "mun-3-a",
+    "difficulty": 3,
+    "prompt": "¿Quién marcó el gol de Alemania en la final del Mundial de 2014?",
+    "options": [
+      "Thomas Müller",
+      "Mario Götze",
+      "Miroslav Klose",
+      "André Schürrle"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "mun-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué selección ganó el partido decisivo del Mundial de 1950, conocido como el «Maracanazo»?",
+    "options": [
+      "Argentina",
+      "Italia",
+      "Suecia",
+      "Uruguay"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "mun-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué selección perdió la final del Mundial de 2018 ante Francia?",
+    "options": [
+      "Bélgica",
+      "Inglaterra",
+      "Croacia",
+      "Argentina"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "mun-3-d",
+    "difficulty": 3,
+    "prompt": "¿Qué selección fue campeona del Mundial de 1966?",
+    "options": [
+      "Inglaterra",
+      "Alemania Federal",
+      "Portugal",
+      "Italia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "mun-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué jugador inglés marcó tres goles en la final del Mundial de 1966?",
+    "options": [
+      "Bobby Charlton",
+      "Martin Peters",
+      "Geoff Hurst",
+      "Roger Hunt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "mun-5-b",
+    "difficulty": 5,
+    "prompt": "¿A qué selección venció Alemania Federal en la final de 1954, el «Milagro de Berna»?",
+    "options": [
+      "Hungría",
+      "Austria",
+      "Uruguay",
+      "Brasil"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "mun-5-c",
+    "difficulty": 5,
+    "prompt": "¿Quién fue el goleador del Mundial de 1978?",
+    "options": [
+      "Rob Rensenbrink",
+      "Mario Kempes",
+      "Teófilo Cubillas",
+      "Leopoldo Luque"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "mun-5-d",
+    "difficulty": 5,
+    "prompt": "¿En qué estadio se jugó la final del Mundial de 1994 entre Brasil e Italia?",
+    "options": [
+      "Giants Stadium",
+      "Soldier Field",
+      "Estadio Azteca",
+      "Rose Bowl"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "mun-8-a",
+    "difficulty": 8,
+    "prompt": "¿Cuántos goles marcó el francés Just Fontaine en el Mundial de 1958?",
+    "options": [
+      "9 goles",
+      "11 goles",
+      "10 goles",
+      "13 goles"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "mun-8-b",
+    "difficulty": 8,
+    "prompt": "¿A qué selección venció Brasil en la final del Mundial de 1962 en Santiago?",
+    "options": [
+      "Hungría",
+      "Checoslovaquia",
+      "Yugoslavia",
+      "Chile"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "mun-8-c",
+    "difficulty": 8,
+    "prompt": "¿Quién fue el goleador del Mundial de Italia 1990?",
+    "options": [
+      "Salvatore Schillaci",
+      "Tomáš Skuhravý",
+      "Gary Lineker",
+      "Lothar Matthäus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "mun-8-d",
+    "difficulty": 8,
+    "prompt": "¿Qué entrenador dirigió a Brasil en la conquista del Mundial de 1970?",
+    "options": [
+      "Vicente Feola",
+      "Aymoré Moreira",
+      "Mário Zagallo",
+      "Telê Santana"
+    ],
+    "correctIndex": 2
+  }
+]

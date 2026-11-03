@@ -1,0 +1,242 @@
+[
+  {
+    "id": "leu-1-a",
+    "difficulty": 1,
+    "prompt": "¿Cómo se llama el estadio histórico del FC Barcelona?",
+    "options": [
+      "Camp Nou",
+      "Santiago Bernabéu",
+      "Mestalla",
+      "Metropolitano"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "leu-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué club inglés juega de local en Anfield?",
+    "options": [
+      "Everton",
+      "Liverpool",
+      "Manchester City",
+      "Arsenal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "leu-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué club alemán juega de local en el Allianz Arena?",
+    "options": [
+      "Borussia Dortmund",
+      "Schalke 04",
+      "Bayern Múnich",
+      "Bayer Leverkusen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "leu-1-d",
+    "difficulty": 1,
+    "prompt": "¿Qué clubes disputan «El Clásico» del fútbol español?",
+    "options": [
+      "Real Madrid vs. Atlético",
+      "Barcelona vs. Espanyol",
+      "Sevilla vs. Betis",
+      "Real Madrid vs. Barcelona"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "leu-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué club dio la gran sorpresa al ganar la Premier League 2015-16?",
+    "options": [
+      "West Ham",
+      "Leicester City",
+      "Tottenham",
+      "Southampton"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "leu-2-b",
+    "difficulty": 2,
+    "prompt": "¿Qué club fue apodado «Los Invencibles» por no perder en la Premier 2003-04?",
+    "options": [
+      "Chelsea",
+      "Manchester United",
+      "Arsenal",
+      "Liverpool"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "leu-2-c",
+    "difficulty": 2,
+    "prompt": "¿Cómo se conoce popularmente el estadio que comparten Inter y AC Milan?",
+    "options": [
+      "Olímpico",
+      "Juventus Stadium",
+      "Diego Armando Maradona",
+      "San Siro"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "leu-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué club juega de local en el Signal Iduna Park?",
+    "options": [
+      "Borussia Dortmund",
+      "Schalke 04",
+      "Bayern Múnich",
+      "Werder Bremen"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "leu-3-a",
+    "difficulty": 3,
+    "prompt": "¿Quién dirigía al Leicester City campeón de la Premier 2015-16?",
+    "options": [
+      "Nigel Pearson",
+      "Brendan Rodgers",
+      "Claudio Ranieri",
+      "Craig Shakespeare"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "leu-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué club ganó la Serie A 2021-22?",
+    "options": [
+      "Inter",
+      "Napoli",
+      "Juventus",
+      "AC Milan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "leu-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué club se coronó en LaLiga 2013-14 con un empate en el Camp Nou en la última fecha?",
+    "options": [
+      "Atlético de Madrid",
+      "Real Madrid",
+      "Barcelona",
+      "Valencia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "leu-3-d",
+    "difficulty": 3,
+    "prompt": "¿Qué club inglés es apodado «the Toffees»?",
+    "options": [
+      "Liverpool",
+      "Everton",
+      "Aston Villa",
+      "Newcastle United"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "leu-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué club le arrebató al PSG el título de la Ligue 1 2020-21?",
+    "options": [
+      "Mónaco",
+      "Lyon",
+      "Marsella",
+      "Lille"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "leu-5-b",
+    "difficulty": 5,
+    "prompt": "¿Quién dirigía al Dortmund campeón de la Bundesliga 2010-11 y 2011-12?",
+    "options": [
+      "Jürgen Klopp",
+      "Thomas Tuchel",
+      "Lucien Favre",
+      "Ottmar Hitzfeld"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "leu-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué club ganó la Bundesliga 2008-09, el primer título de liga de su historia?",
+    "options": [
+      "Hoffenheim",
+      "Wolfsburg",
+      "Stuttgart",
+      "Hertha Berlín"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "leu-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué club ganó la Serie A 2000-01 con Totti y Batistuta?",
+    "options": [
+      "Lazio",
+      "Juventus",
+      "Roma",
+      "Parma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "leu-8-a",
+    "difficulty": 8,
+    "prompt": "¿Qué club ganó la Premier League 1994-95?",
+    "options": [
+      "Blackburn Rovers",
+      "Newcastle United",
+      "Leeds United",
+      "Nottingham Forest"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "leu-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué club ganó LaLiga 1999-2000, la primera de su historia?",
+    "options": [
+      "Valencia",
+      "Deportivo La Coruña",
+      "Real Betis",
+      "Athletic Club"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "leu-8-c",
+    "difficulty": 8,
+    "prompt": "¿Cuántos puntos sumó el Arsenal invicto en la Premier League 2003-04?",
+    "options": [
+      "86",
+      "88",
+      "90",
+      "92"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "leu-8-d",
+    "difficulty": 8,
+    "prompt": "¿Qué club ganó la Ligue 1 2011-12, por delante del PSG?",
+    "options": [
+      "Lille",
+      "Marsella",
+      "Lyon",
+      "Montpellier"
+    ],
+    "correctIndex": 3
+  }
+]

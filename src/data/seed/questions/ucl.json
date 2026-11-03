@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ucl-1-a",
+    "difficulty": 1,
+    "prompt": "¿Qué club ganó la final de 2005 en Estambul?",
+    "options": [
+      "Milan",
+      "Chelsea",
+      "Liverpool",
+      "Juventus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ucl-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué club ganó la primera Copa de Europa, en 1956?",
+    "options": [
+      "Real Madrid",
+      "Stade de Reims",
+      "Benfica",
+      "Milan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ucl-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué club ganó la Champions League de 2009 dirigido por Pep Guardiola?",
+    "options": [
+      "Manchester United",
+      "Bayern Múnich",
+      "Chelsea",
+      "Barcelona"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ucl-1-d",
+    "difficulty": 1,
+    "prompt": "¿Qué club inglés le dio vuelta la final de 1999 al Bayern con dos goles en el descuento?",
+    "options": [
+      "Arsenal",
+      "Manchester United",
+      "Liverpool",
+      "Chelsea"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ucl-2-a",
+    "difficulty": 2,
+    "prompt": "¿A qué club venció el Real Madrid en la final de 2014 en Lisboa?",
+    "options": [
+      "Juventus",
+      "Liverpool",
+      "Bayern Múnich",
+      "Atlético de Madrid"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ucl-2-b",
+    "difficulty": 2,
+    "prompt": "¿Quién marcó el gol del Real Madrid en la final de 2022 ante el Liverpool?",
+    "options": [
+      "Karim Benzema",
+      "Vinícius Júnior",
+      "Federico Valverde",
+      "Rodrygo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ucl-2-c",
+    "difficulty": 2,
+    "prompt": "¿Qué entrenador ganó tres Champions seguidas con el Real Madrid entre 2016 y 2018?",
+    "options": [
+      "Zinedine Zidane",
+      "Carlo Ancelotti",
+      "José Mourinho",
+      "Rafael Benítez"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ucl-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué club ganó la final de 2012 ante el Bayern en Múnich?",
+    "options": [
+      "Borussia Dortmund",
+      "Inter de Milán",
+      "Chelsea",
+      "Barcelona"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ucl-3-a",
+    "difficulty": 3,
+    "prompt": "¿Con qué club ganó José Mourinho la Champions League de 2004?",
+    "options": [
+      "Porto",
+      "Chelsea",
+      "Inter de Milán",
+      "Benfica"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ucl-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué jugador marcó de chilena en la final de 2018 ante el Liverpool?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Karim Benzema",
+      "Gareth Bale",
+      "Sergio Ramos"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ucl-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué club ganó la final de 2010 jugada en el estadio Santiago Bernabéu?",
+    "options": [
+      "Bayern Múnich",
+      "Inter de Milán",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ucl-3-d",
+    "difficulty": 3,
+    "prompt": "¿En qué ciudad se jugó la final de 2019 entre Liverpool y Tottenham?",
+    "options": [
+      "Londres",
+      "Kiev",
+      "Lisboa",
+      "Madrid"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ucl-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué club ganó la primera edición con el nombre de Champions League, en 1993?",
+    "options": [
+      "Milan",
+      "Olympique de Marsella",
+      "Barcelona",
+      "Ajax"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "ucl-5-b",
+    "difficulty": 5,
+    "prompt": "¿Quién marcó el gol del Barcelona en la final de 1992 ante la Sampdoria en Wembley?",
+    "options": [
+      "Hristo Stoichkov",
+      "Michael Laudrup",
+      "Pep Guardiola",
+      "Ronald Koeman"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ucl-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué club fue el primer campeón británico de la Copa de Europa, en 1967?",
+    "options": [
+      "Manchester United",
+      "Liverpool",
+      "Celtic",
+      "Rangers"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ucl-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué jugador marcó los dos goles del Milan en la final de 2007 ante el Liverpool?",
+    "options": [
+      "Filippo Inzaghi",
+      "Kaká",
+      "Andriy Shevchenko",
+      "Andrea Pirlo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ucl-8-a",
+    "difficulty": 8,
+    "prompt": "¿Qué arquero del Steaua Bucarest atajó cuatro penales en la final de 1986?",
+    "options": [
+      "Jean-Marie Pfaff",
+      "Rinat Dasáyev",
+      "Helmuth Duckadam",
+      "Dino Zoff"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "ucl-8-b",
+    "difficulty": 8,
+    "prompt": "¿Cuántos goles marcó Ferenc Puskás en la final de 1960 ante el Eintracht Frankfurt?",
+    "options": [
+      "4 goles",
+      "3 goles",
+      "2 goles",
+      "5 goles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "ucl-8-c",
+    "difficulty": 8,
+    "prompt": "¿En qué estadio se jugó la final de 2002 en la que Zidane marcó de volea?",
+    "options": [
+      "Old Trafford",
+      "Ernst Happel",
+      "San Siro",
+      "Hampden Park"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "ucl-8-d",
+    "difficulty": 8,
+    "prompt": "¿A qué club venció el Borussia Dortmund en la final de 1997?",
+    "options": [
+      "Ajax",
+      "Juventus",
+      "Milan",
+      "Inter de Milán"
+    ],
+    "correctIndex": 1
+  }
+]

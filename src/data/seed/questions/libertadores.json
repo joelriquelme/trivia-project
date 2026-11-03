@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lib-1-a",
+    "difficulty": 1,
+    "prompt": "¿Qué club chileno ganó la Copa Libertadores de 1991?",
+    "options": [
+      "Colo-Colo",
+      "Universidad de Chile",
+      "Universidad Católica",
+      "Cobreloa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lib-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué club ganó la final de la Libertadores 2018 jugada en Madrid?",
+    "options": [
+      "Boca Juniors",
+      "River Plate",
+      "Grêmio",
+      "Palmeiras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lib-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué club brasileño ganó la Libertadores 2019 ante River Plate?",
+    "options": [
+      "Palmeiras",
+      "Santos",
+      "Flamengo",
+      "Corinthians"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lib-1-d",
+    "difficulty": 1,
+    "prompt": "¿Qué club argentino ganó las Copas Libertadores de 2000 y 2001?",
+    "options": [
+      "River Plate",
+      "Independiente",
+      "Vélez Sarsfield",
+      "Boca Juniors"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lib-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué club ganó la primera Copa Libertadores, en 1960?",
+    "options": [
+      "Nacional",
+      "Peñarol",
+      "Olimpia",
+      "Santos"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lib-2-b",
+    "difficulty": 2,
+    "prompt": "¿A qué club venció Colo-Colo en la final de la Libertadores 1991?",
+    "options": [
+      "Boca Juniors",
+      "Nacional",
+      "Olimpia",
+      "Cerro Porteño"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lib-2-c",
+    "difficulty": 2,
+    "prompt": "¿Qué club ganó las Copas Libertadores de 2020 y 2021?",
+    "options": [
+      "Santos",
+      "Flamengo",
+      "Atlético Mineiro",
+      "Palmeiras"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lib-2-d",
+    "difficulty": 2,
+    "prompt": "¿Qué club colombiano ganó la Copa Libertadores 2016?",
+    "options": [
+      "Atlético Nacional",
+      "Millonarios",
+      "Deportivo Cali",
+      "América de Cali"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lib-3-a",
+    "difficulty": 3,
+    "prompt": "¿Qué club ecuatoriano ganó la Copa Libertadores 2008?",
+    "options": [
+      "Barcelona SC",
+      "Emelec",
+      "LDU Quito",
+      "Independiente del Valle"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lib-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué club colombiano venció a Boca Juniors en la final de la Libertadores 2004?",
+    "options": [
+      "Atlético Nacional",
+      "América de Cali",
+      "Deportivo Cali",
+      "Once Caldas"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lib-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué club argentino ganó la Copa Libertadores 2014?",
+    "options": [
+      "San Lorenzo",
+      "Racing Club",
+      "Lanús",
+      "Huracán"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lib-3-d",
+    "difficulty": 3,
+    "prompt": "¿A qué ciudad se trasladó la final de 2019, prevista originalmente en Santiago?",
+    "options": [
+      "Asunción",
+      "Lima",
+      "Montevideo",
+      "Buenos Aires"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lib-5-a",
+    "difficulty": 5,
+    "prompt": "¿Quién era el DT de Colo-Colo campeón de la Libertadores 1991?",
+    "options": [
+      "Arturo Salah",
+      "Nelson Acosta",
+      "Manuel Pellegrini",
+      "Mirko Jozić"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lib-5-b",
+    "difficulty": 5,
+    "prompt": "¿A qué club eliminó Colo-Colo en las semifinales de la Libertadores 1991?",
+    "options": [
+      "Boca Juniors",
+      "River Plate",
+      "Peñarol",
+      "Flamengo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lib-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué club fue el primer brasileño en ganar la Libertadores, en 1962?",
+    "options": [
+      "Palmeiras",
+      "Santos",
+      "São Paulo",
+      "Cruzeiro"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lib-5-d",
+    "difficulty": 5,
+    "prompt": "¿Qué club ganó cuatro Copas Libertadores seguidas entre 1972 y 1975?",
+    "options": [
+      "Estudiantes",
+      "Boca Juniors",
+      "Independiente",
+      "Peñarol"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lib-8-a",
+    "difficulty": 8,
+    "prompt": "¿Qué jugador de Colo-Colo anotó dos goles en la final de vuelta de 1991 ante Olimpia?",
+    "options": [
+      "Rubén Martínez",
+      "Patricio Yáñez",
+      "Luis Pérez",
+      "Marcelo Barticciotto"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lib-8-b",
+    "difficulty": 8,
+    "prompt": "¿Ante qué club perdió Universidad Católica la final de la Libertadores 1993?",
+    "options": [
+      "Palmeiras",
+      "Cruzeiro",
+      "Grêmio",
+      "São Paulo"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lib-8-c",
+    "difficulty": 8,
+    "prompt": "¿Qué club chileno disputó la final de la Libertadores 1973 ante Independiente?",
+    "options": [
+      "Colo-Colo",
+      "Unión Española",
+      "Universidad de Chile",
+      "Universidad Católica"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lib-8-d",
+    "difficulty": 8,
+    "prompt": "¿Quién dirigía a LDU Quito cuando ganó la Copa Libertadores 2008?",
+    "options": [
+      "Jorge Fossati",
+      "Edgardo Bauza",
+      "Reinaldo Rueda",
+      "Luis F. Montoya"
+    ],
+    "correctIndex": 1
+  }
+]

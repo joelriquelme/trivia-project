@@ -1,0 +1,242 @@
+[
+  {
+    "id": "lsu-1-a",
+    "difficulty": 1,
+    "prompt": "¿Cómo se apoda el estadio de Boca Juniors?",
+    "options": [
+      "La Bombonera",
+      "El Monumental",
+      "El Cilindro",
+      "El Gasómetro"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lsu-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué clubes disputan el Superclásico del fútbol chileno?",
+    "options": [
+      "Colo-Colo vs. U. Católica",
+      "Colo-Colo vs. U. de Chile",
+      "U. de Chile vs. U. Católica",
+      "Colo-Colo vs. Cobreloa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lsu-1-c",
+    "difficulty": 1,
+    "prompt": "¿Cuál es el gran clásico del fútbol uruguayo?",
+    "options": [
+      "Nacional vs. Danubio",
+      "Peñarol vs. Defensor",
+      "Peñarol vs. Nacional",
+      "Wanderers vs. Danubio"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lsu-1-d",
+    "difficulty": 1,
+    "prompt": "¿En qué ciudad brasileña está el estadio Maracaná?",
+    "options": [
+      "São Paulo",
+      "Belo Horizonte",
+      "Porto Alegre",
+      "Río de Janeiro"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lsu-2-a",
+    "difficulty": 2,
+    "prompt": "¿Con qué apodo se conoce a Colo-Colo?",
+    "options": [
+      "Los Cruzados",
+      "El Cacique",
+      "Los Azules",
+      "Los Zorros del Desierto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lsu-2-b",
+    "difficulty": 2,
+    "prompt": "¿Qué apodo recibe el club Universidad de Chile?",
+    "options": [
+      "El Cacique",
+      "Los Cruzados",
+      "El Romántico Viajero",
+      "Los Albos"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lsu-2-c",
+    "difficulty": 2,
+    "prompt": "¿En qué ciudad tiene su sede el club Cobreloa?",
+    "options": [
+      "Antofagasta",
+      "Iquique",
+      "Copiapó",
+      "Calama"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lsu-2-d",
+    "difficulty": 2,
+    "prompt": "¿Cómo se conoce el clásico entre Flamengo y Fluminense?",
+    "options": [
+      "Fla-Flu",
+      "Gre-Nal",
+      "Choque-Rei",
+      "Clássico dos Milhões"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lsu-3-a",
+    "difficulty": 3,
+    "prompt": "¿Qué club peruano es apodado «los cremas»?",
+    "options": [
+      "Alianza Lima",
+      "Sporting Cristal",
+      "Universitario",
+      "Melgar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lsu-3-b",
+    "difficulty": 3,
+    "prompt": "¿Qué club argentino juega en el estadio apodado «El Cilindro»?",
+    "options": [
+      "Independiente",
+      "San Lorenzo",
+      "Huracán",
+      "Racing Club"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lsu-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué club colombiano es apodado «el Embajador»?",
+    "options": [
+      "Millonarios",
+      "Santa Fe",
+      "América de Cali",
+      "Atlético Nacional"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lsu-3-d",
+    "difficulty": 3,
+    "prompt": "¿Qué club ganó el Apertura y el Clausura del fútbol chileno en 2011?",
+    "options": [
+      "Colo-Colo",
+      "Universidad de Chile",
+      "Universidad Católica",
+      "Unión Española"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lsu-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué club chileno ganó cuatro torneos nacionales seguidos entre 2006 y 2007?",
+    "options": [
+      "Universidad de Chile",
+      "Universidad Católica",
+      "Cobreloa",
+      "Colo-Colo"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lsu-5-b",
+    "difficulty": 5,
+    "prompt": "¿En qué comuna de Santiago se ubica el Estadio Monumental de Colo-Colo?",
+    "options": [
+      "Macul",
+      "Ñuñoa",
+      "Las Condes",
+      "La Florida"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lsu-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué club ganó el Brasileirão 2021, su primer título de liga desde 1971?",
+    "options": [
+      "Flamengo",
+      "Atlético Mineiro",
+      "Palmeiras",
+      "Internacional"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "lsu-5-d",
+    "difficulty": 5,
+    "prompt": "¿Cómo se llama el clásico ecuatoriano entre Barcelona SC y Emelec?",
+    "options": [
+      "Clásico Capitalino",
+      "Clásico Paisa",
+      "Clásico del Astillero",
+      "Clásico Rioplatense"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lsu-8-a",
+    "difficulty": 8,
+    "prompt": "¿Qué club argentino ganó su primer título de liga en el Apertura 2009?",
+    "options": [
+      "Lanús",
+      "Arsenal de Sarandí",
+      "Banfield",
+      "Argentinos Juniors"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "lsu-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué club ganó el Apertura 2013-14 de Chile al vencer a la UC en un desempate?",
+    "options": [
+      "Huachipato",
+      "Unión Española",
+      "Audax Italiano",
+      "O'Higgins"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "lsu-8-c",
+    "difficulty": 8,
+    "prompt": "¿Qué club fue en 1976 el primer campeón uruguayo profesional ajeno a Peñarol y Nacional?",
+    "options": [
+      "Defensor",
+      "Danubio",
+      "Montevideo Wanderers",
+      "Bella Vista"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "lsu-8-d",
+    "difficulty": 8,
+    "prompt": "¿En qué año ganó Cobreloa su primer título de Primera División?",
+    "options": [
+      "1977",
+      "1980",
+      "1982",
+      "1985"
+    ],
+    "correctIndex": 1
+  }
+]

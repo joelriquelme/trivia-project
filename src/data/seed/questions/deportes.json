@@ -1,0 +1,242 @@
+[
+  {
+    "id": "dep-1-a",
+    "difficulty": 1,
+    "prompt": "¿Cuántos jugadores por equipo hay en cancha en un partido de básquetbol?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "dep-1-b",
+    "difficulty": 1,
+    "prompt": "¿Cada cuántos años se celebran normalmente los Juegos Olímpicos de verano?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "dep-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué deporte se juega en el torneo de Wimbledon?",
+    "options": [
+      "Golf",
+      "Bádminton",
+      "Tenis",
+      "Squash"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "dep-1-d",
+    "difficulty": 1,
+    "prompt": "¿Cuántos anillos tiene el símbolo olímpico?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "dep-2-a",
+    "difficulty": 2,
+    "prompt": "¿Qué ciudad fue sede de los Juegos Olímpicos de 2016?",
+    "options": [
+      "Buenos Aires",
+      "Río de Janeiro",
+      "São Paulo",
+      "Santiago"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "dep-2-b",
+    "difficulty": 2,
+    "prompt": "¿Cuántos hoyos tiene un recorrido estándar de golf?",
+    "options": [
+      "9",
+      "12",
+      "18",
+      "21"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "dep-2-c",
+    "difficulty": 2,
+    "prompt": "¿Quién ganó los 100 metros planos en los Juegos Olímpicos de Pekín 2008?",
+    "options": [
+      "Asafa Powell",
+      "Yohan Blake",
+      "Tyson Gay",
+      "Usain Bolt"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "dep-2-d",
+    "difficulty": 2,
+    "prompt": "¿En qué categoría del automovilismo compite Lewis Hamilton?",
+    "options": [
+      "Fórmula 1",
+      "MotoGP",
+      "Rally",
+      "NASCAR"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "dep-3-a",
+    "difficulty": 3,
+    "prompt": "¿Cuál de estos torneos de tenis de Grand Slam se juega sobre arcilla?",
+    "options": [
+      "Wimbledon",
+      "Abierto de Australia",
+      "Roland Garros",
+      "US Open"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "dep-3-b",
+    "difficulty": 3,
+    "prompt": "¿Cuántos sets debe ganar un tenista para llevarse un partido masculino de Grand Slam?",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "dep-3-c",
+    "difficulty": 3,
+    "prompt": "¿De qué color es el maillot del líder del Tour de Francia?",
+    "options": [
+      "Amarillo",
+      "Rosa",
+      "Rojo",
+      "Verde"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "dep-3-d",
+    "difficulty": 3,
+    "prompt": "¿Qué distancia oficial tiene una maratón?",
+    "options": [
+      "40 km",
+      "42,195 km",
+      "45 km",
+      "41,5 km"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "dep-5-a",
+    "difficulty": 5,
+    "prompt": "¿En qué Juegos Olímpicos ganaron Massú y González el oro en dobles de tenis?",
+    "options": [
+      "Sídney 2000",
+      "Pekín 2008",
+      "Londres 2012",
+      "Atenas 2004"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "dep-5-b",
+    "difficulty": 5,
+    "prompt": "¿Qué gimnasta logró el primer 10 perfecto de la historia olímpica, en 1976?",
+    "options": [
+      "Nadia Comăneci",
+      "Olga Korbut",
+      "Nellie Kim",
+      "Mary Lou Retton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "dep-5-c",
+    "difficulty": 5,
+    "prompt": "¿En qué deporte se disputa la Copa Stanley?",
+    "options": [
+      "Béisbol",
+      "Hockey sobre hielo",
+      "Fútbol americano",
+      "Básquetbol"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "dep-5-d",
+    "difficulty": 5,
+    "prompt": "¿En qué ciudad se juega el Abierto de Australia de tenis?",
+    "options": [
+      "Sídney",
+      "Brisbane",
+      "Melbourne",
+      "Perth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "dep-8-a",
+    "difficulty": 8,
+    "prompt": "¿Quién ganó el primer Campeonato Mundial de Fórmula 1, en 1950?",
+    "options": [
+      "Giuseppe Farina",
+      "Juan Manuel Fangio",
+      "Alberto Ascari",
+      "Luigi Fagioli"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "dep-8-b",
+    "difficulty": 8,
+    "prompt": "¿En qué año se celebraron los primeros Juegos Olímpicos de invierno?",
+    "options": [
+      "1920",
+      "1924",
+      "1928",
+      "1932"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "dep-8-c",
+    "difficulty": 8,
+    "prompt": "¿Quién fue el primer atleta en correr la milla en menos de 4 minutos, en 1954?",
+    "options": [
+      "John Landy",
+      "Sebastian Coe",
+      "Roger Bannister",
+      "Steve Ovett"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "dep-8-d",
+    "difficulty": 8,
+    "prompt": "¿Qué tenista ganó dos veces los cuatro Grand Slam en un mismo año?",
+    "options": [
+      "Roy Emerson",
+      "Ken Rosewall",
+      "Don Budge",
+      "Rod Laver"
+    ],
+    "correctIndex": 3
+  }
+]

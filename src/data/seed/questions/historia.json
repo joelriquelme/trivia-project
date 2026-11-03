@@ -1,0 +1,242 @@
+[
+  {
+    "id": "his-1-a",
+    "difficulty": 1,
+    "prompt": "¿En qué año llegó Cristóbal Colón a América?",
+    "options": [
+      "1492",
+      "1500",
+      "1453",
+      "1519"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "his-1-b",
+    "difficulty": 1,
+    "prompt": "¿Quién fue el primer presidente de Estados Unidos?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "his-1-c",
+    "difficulty": 1,
+    "prompt": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "options": [
+      "1918",
+      "1939",
+      "1945",
+      "1950"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "his-1-d",
+    "difficulty": 1,
+    "prompt": "¿Qué civilización construyó las pirámides de Giza?",
+    "options": [
+      "Mesopotámica",
+      "Romana",
+      "Griega",
+      "Egipcia"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "his-2-a",
+    "difficulty": 2,
+    "prompt": "¿En qué año cayó el Muro de Berlín?",
+    "options": [
+      "1991",
+      "1989",
+      "1985",
+      "1979"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "his-2-b",
+    "difficulty": 2,
+    "prompt": "¿Qué imperio tenía su capital en Cusco?",
+    "options": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "his-2-c",
+    "difficulty": 2,
+    "prompt": "¿En qué año comenzó la Revolución Francesa?",
+    "options": [
+      "1776",
+      "1815",
+      "1848",
+      "1789"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "his-2-d",
+    "difficulty": 2,
+    "prompt": "¿Quién fue el primer ser humano en pisar la Luna, en 1969?",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "his-3-a",
+    "difficulty": 3,
+    "prompt": "¿En qué año se proclamó la independencia de Chile?",
+    "options": [
+      "1810",
+      "1814",
+      "1818",
+      "1823"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "his-3-b",
+    "difficulty": 3,
+    "prompt": "¿Quién fue el primer emperador romano?",
+    "options": [
+      "Julio César",
+      "Nerón",
+      "Marco Antonio",
+      "Augusto"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "his-3-c",
+    "difficulty": 3,
+    "prompt": "¿En qué barco llegaron los peregrinos ingleses a Norteamérica en 1620?",
+    "options": [
+      "Mayflower",
+      "Santa María",
+      "Endeavour",
+      "Beagle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "his-3-d",
+    "difficulty": 3,
+    "prompt": "¿En qué ciudad fue asesinado John F. Kennedy en 1963?",
+    "options": [
+      "Washington D. C.",
+      "Dallas",
+      "Nueva York",
+      "Chicago"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "his-5-a",
+    "difficulty": 5,
+    "prompt": "¿Qué tratado de 1494 repartió las tierras descubiertas entre España y Portugal?",
+    "options": [
+      "Tratado de Utrecht",
+      "Tratado de Versalles",
+      "Tratado de París",
+      "Tratado de Tordesillas"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "his-5-b",
+    "difficulty": 5,
+    "prompt": "¿En qué año ocurrió el Combate Naval de Iquique?",
+    "options": [
+      "1879",
+      "1866",
+      "1891",
+      "1838"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "his-5-c",
+    "difficulty": 5,
+    "prompt": "¿Qué dinastía gobernaba China cuando cayó el imperio en 1912?",
+    "options": [
+      "Ming",
+      "Qing",
+      "Han",
+      "Tang"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "his-5-d",
+    "difficulty": 5,
+    "prompt": "¿Cuál fue el primer país de América Latina en independizarse, en 1804?",
+    "options": [
+      "México",
+      "Argentina",
+      "Haití",
+      "Venezuela"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "his-8-a",
+    "difficulty": 8,
+    "prompt": "¿En qué año se libró la batalla de Hastings?",
+    "options": [
+      "1066",
+      "1096",
+      "1215",
+      "1014"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "his-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué emperador bizantino promulgó el Corpus Juris Civilis?",
+    "options": [
+      "Constantino I",
+      "Justiniano I",
+      "Teodosio I",
+      "Basilio II"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "his-8-c",
+    "difficulty": 8,
+    "prompt": "¿Quién fue el primero en usar el título de presidente de Chile, en 1826?",
+    "options": [
+      "Bernardo O'Higgins",
+      "José Miguel Carrera",
+      "Manuel Blanco Encalada",
+      "Ramón Freire"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "his-8-d",
+    "difficulty": 8,
+    "prompt": "¿Qué acuerdo de 1648 puso fin a la Guerra de los Treinta Años?",
+    "options": [
+      "Paz de Utrecht",
+      "Paz de Augsburgo",
+      "Tratado de Nimega",
+      "Paz de Westfalia"
+    ],
+    "correctIndex": 3
+  }
+]

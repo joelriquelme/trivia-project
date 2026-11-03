@@ -1,0 +1,242 @@
+[
+  {
+    "id": "eca-1-a",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó la Copa América 2015, jugada en Chile?",
+    "options": [
+      "Chile",
+      "Argentina",
+      "Perú",
+      "Uruguay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "eca-1-b",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó la Eurocopa 2016?",
+    "options": [
+      "Francia",
+      "Portugal",
+      "Alemania",
+      "Gales"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "eca-1-c",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó la Copa América 2021 en el Maracaná?",
+    "options": [
+      "Brasil",
+      "Colombia",
+      "Argentina",
+      "Uruguay"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "eca-1-d",
+    "difficulty": 1,
+    "prompt": "¿Qué selección ganó las Eurocopas de 2008 y 2012?",
+    "options": [
+      "Italia",
+      "Alemania",
+      "Países Bajos",
+      "España"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "eca-2-a",
+    "difficulty": 2,
+    "prompt": "¿A qué selección venció Chile en las finales de la Copa América 2015 y 2016?",
+    "options": [
+      "Brasil",
+      "Argentina",
+      "Perú",
+      "Colombia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "eca-2-b",
+    "difficulty": 2,
+    "prompt": "¿Cómo se definieron las finales de la Copa América 2015 y 2016?",
+    "options": [
+      "Gol de oro",
+      "Tiempo suplementario",
+      "Tanda de penales",
+      "Partido de desempate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "eca-2-c",
+    "difficulty": 2,
+    "prompt": "¿Qué selección ganó la Eurocopa 2020, disputada en 2021?",
+    "options": [
+      "Inglaterra",
+      "España",
+      "Dinamarca",
+      "Italia"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "eca-2-d",
+    "difficulty": 2,
+    "prompt": "¿En qué país se jugó la Copa América Centenario 2016?",
+    "options": [
+      "Estados Unidos",
+      "México",
+      "Chile",
+      "Brasil"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "eca-3-a",
+    "difficulty": 3,
+    "prompt": "¿Quién anotó el penal decisivo de Chile en la final de la Copa América 2015?",
+    "options": [
+      "Arturo Vidal",
+      "Charles Aránguiz",
+      "Alexis Sánchez",
+      "Matías Fernández"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "eca-3-b",
+    "difficulty": 3,
+    "prompt": "¿Quién marcó el gol de Portugal en la final de la Eurocopa 2016?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Nani",
+      "Ricardo Quaresma",
+      "Éder"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "eca-3-c",
+    "difficulty": 3,
+    "prompt": "¿Qué selección dio la sorpresa al ganar la Eurocopa 2004?",
+    "options": [
+      "Grecia",
+      "Portugal",
+      "República Checa",
+      "Dinamarca"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "eca-3-d",
+    "difficulty": 3,
+    "prompt": "¿Quién fue el capitán de Chile en los títulos de Copa América 2015 y 2016?",
+    "options": [
+      "Gary Medel",
+      "Claudio Bravo",
+      "Arturo Vidal",
+      "Gonzalo Jara"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "eca-5-a",
+    "difficulty": 5,
+    "prompt": "¿Quién dirigía a Chile cuando ganó la Copa América 2015?",
+    "options": [
+      "Juan Antonio Pizzi",
+      "Marcelo Bielsa",
+      "Claudio Borghi",
+      "Jorge Sampaoli"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "eca-5-b",
+    "difficulty": 5,
+    "prompt": "¿Qué selección ganó la Eurocopa 1992 tras entrar como reemplazo de Yugoslavia?",
+    "options": [
+      "Dinamarca",
+      "Suecia",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "eca-5-c",
+    "difficulty": 5,
+    "prompt": "¿Quién marcó el gol de Argentina en la final de la Copa América 2021?",
+    "options": [
+      "Lionel Messi",
+      "Ángel Di María",
+      "Lautaro Martínez",
+      "Rodrigo De Paul"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "eca-5-d",
+    "difficulty": 5,
+    "prompt": "¿Quién marcó el gol de oro de Alemania en la final de la Eurocopa 1996?",
+    "options": [
+      "Jürgen Klinsmann",
+      "Andreas Möller",
+      "Oliver Bierhoff",
+      "Matthias Sammer"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "eca-8-a",
+    "difficulty": 8,
+    "prompt": "¿Quién convirtió el penal que le dio a Chile la Copa América Centenario 2016?",
+    "options": [
+      "Francisco Silva",
+      "Jean Beausejour",
+      "Alexis Sánchez",
+      "Arturo Vidal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "eca-8-b",
+    "difficulty": 8,
+    "prompt": "¿Qué selección ganó la primera Eurocopa, en 1960?",
+    "options": [
+      "Yugoslavia",
+      "Unión Soviética",
+      "España",
+      "Francia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "eca-8-c",
+    "difficulty": 8,
+    "prompt": "¿En qué estadio se jugó la final de la Copa América 2015?",
+    "options": [
+      "Estadio Monumental",
+      "Estadio Sausalito",
+      "Estadio Nacional",
+      "Estadio Ester Roa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "eca-8-d",
+    "difficulty": 8,
+    "prompt": "¿Qué selección ganó la Copa América 2001, jugada en su propio país?",
+    "options": [
+      "México",
+      "Honduras",
+      "Uruguay",
+      "Colombia"
+    ],
+    "correctIndex": 3
+  }
+]
