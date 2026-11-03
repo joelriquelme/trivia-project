@@ -1,9 +1,14 @@
+import { useState } from 'react'
+import { HomeScreen } from './features/home/HomeScreen'
+import { SetupScreen } from './features/setup/SetupScreen'
+
+type Screen = 'home' | 'setup'
+
 function App() {
-  return (
-    <main className="grid min-h-full place-items-center p-6">
-      <h1 className="text-5xl font-extrabold text-brass-400">Trivia Ruleta</h1>
-    </main>
-  )
+  const [screen, setScreen] = useState<Screen>('home')
+
+  if (screen === 'setup') return <SetupScreen onBack={() => setScreen('home')} onStarted={() => setScreen('home')} />
+  return <HomeScreen onNewGame={() => setScreen('setup')} onContinue={() => {}} onEditor={() => {}} />
 }
 
 export default App
